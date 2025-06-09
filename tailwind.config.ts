@@ -88,10 +88,16 @@ export default {
             height: '0',
           },
         },
+        'scan-line-animation': { // Added from globals.css for completeness if needed elsewhere
+          '0%': { transform: 'translateY(-10%)' },
+          '50%': { transform: 'translateY(100%)' },
+          '100%': { transform: 'translateY(-10%)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'scan-line': 'scan-line-animation 3s infinite ease-in-out', // Added
       },
     },
   },
