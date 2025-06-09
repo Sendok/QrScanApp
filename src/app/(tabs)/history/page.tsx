@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { Trash2, ExternalLink } from 'lucide-react';
+import { Trash2, ExternalLink, History } from 'lucide-react'; // Added History import
 import type { ScannedItem } from '@/types';
 import Link from 'next/link';
 
